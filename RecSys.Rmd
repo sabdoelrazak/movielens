@@ -1,0 +1,24 @@
+---
+title: "DataLense"
+author: "Saif"
+date: "12/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Packages needed
+install.packages("dslabs")
+library(dslabs)
+```
+
+```{r}
+# Import MovieLens Data into environment and check head
+data(movielens)
+head(movielens)
+```
+
+
